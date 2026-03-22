@@ -859,8 +859,8 @@
           },
           {
             "position": {
-              "x": 450,
-              "y": -560
+              "x": 440,
+              "y": -575
             },
             "size": {
               "width": 370,
@@ -868,7 +868,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Systém"
+                "text": "e-doktor"
               },
               "body": {
                 "stroke": "#333333",
@@ -964,7 +964,7 @@
             "zIndex": 13,
             "data": {
               "type": "tm.Process",
-              "name": "Systém",
+              "name": "e-doktor",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
