@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 140,
-              "y": -600
+              "x": 80,
+              "y": -760
             },
             "size": {
               "width": 112.5,
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "d24bf5d5-5092-4d42-8879-4c96eba28b05",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Pacient",
@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 140,
-              "y": -475
+              "x": 80,
+              "y": -575
             },
             "size": {
               "width": 112.5,
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "c47aef1c-5084-433f-a370-ec9dc96a726f",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Lékař",
@@ -253,8 +253,8 @@
           },
           {
             "position": {
-              "x": 140,
-              "y": -337
+              "x": 80,
+              "y": -375
             },
             "size": {
               "width": 112.5,
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "dfe951b7-fc45-47e4-a29f-723fe5ea9bbb",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Administrátor",
@@ -370,8 +370,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": -210
+              "x": 410,
+              "y": -180
             },
             "size": {
               "width": 120,
@@ -392,6 +392,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -475,7 +476,6 @@
               ]
             },
             "id": "33886050-6c3e-4b06-baca-9f43c5842735",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Uživatelské přístupy",
@@ -494,8 +494,8 @@
           },
           {
             "position": {
-              "x": 596,
-              "y": -210
+              "x": 626,
+              "y": -180
             },
             "size": {
               "width": 120,
@@ -503,7 +503,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Rezervace a transakce"
+                "text": "Rezervace a transakce\nZdravotní záznamy"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -516,6 +516,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -599,10 +600,9 @@
               ]
             },
             "id": "7cd2f5a7-84cf-4dd5-bf6c-bbc56f3a380a",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
-              "name": "Rezervace a transakce",
+              "name": "Rezervace a transakce\nZdravotní záznamy",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -617,9 +617,260 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Datová vrstva",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Datová vrstva"
+            ],
+            "id": "17aad4e0-8d6e-48c4-bfda-aad8650906c6",
+            "source": {
+              "x": 70,
+              "y": -240
+            },
+            "target": {
+              "x": 1280,
+              "y": -240
+            },
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "93d724a1-325d-447b-9a63-0701d488aadc",
+            "source": {
+              "x": 293,
+              "y": -773
+            },
+            "target": {
+              "x": 290,
+              "y": -30
+            },
+            "vertices": [
+              {
+                "x": 293,
+                "y": -370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Přihlašovací údaje\nPožadavek na rezervaci\nNahrání dokumentu\nVideo stream",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Přihlašovací údaje\nPožadavek na rezervaci\nNahrání dokumentu\nVideo stream"
+            ],
+            "id": "e4f12504-4736-4255-93d6-f981790617cc",
+            "source": {
+              "cell": "d24bf5d5-5092-4d42-8879-4c96eba28b05",
+              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
+            },
+            "target": {
+              "x": 550,
+              "y": -570
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream"
+            ],
+            "id": "187e323f-c677-4779-8154-be9ab674b9d0",
+            "source": {
+              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
+              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
+            },
+            "target": {
+              "x": 550,
+              "y": -540
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Odeslání změn v účtech",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Odeslání změn v účtech"
+            ],
+            "id": "819deed2-8f41-45e9-bde3-7980fc9a1049",
+            "source": {
+              "cell": "dfe951b7-fc45-47e4-a29f-723fe5ea9bbb",
+              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
+            },
+            "target": {
+              "x": 550,
+              "y": -510
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Seznam volných termínů\nZobrazení e-Receptu\nVideo stream",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Seznam volných termínů\nZobrazení e-Receptu\nVideo stream"
+            ],
+            "id": "f10596c5-b9e7-48ff-93fb-869bb66af514",
+            "source": {
+              "cell": "20b1b2d7-3c0e-4d5c-9490-b91c4cef8451",
+              "port": "398d8545-0004-4749-8e6a-7eccbb0c0581"
+            },
+            "target": {
+              "cell": "d24bf5d5-5092-4d42-8879-4c96eba28b05",
+              "port": "a9b7c824-e790-4008-8ce9-13f92f463986"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 796,
-              "y": -210
+              "x": 826,
+              "y": -180
             },
             "size": {
               "width": 120,
@@ -627,7 +878,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Zdravotní záznamy"
+                "text": "SIEM"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -640,6 +891,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -723,10 +975,9 @@
               ]
             },
             "id": "ab2d4e67-dbea-4057-bceb-f93bc829733f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
-              "name": "Zdravotní záznamy",
+              "name": "SIEM",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -742,8 +993,8 @@
           },
           {
             "position": {
-              "x": 990,
-              "y": -475
+              "x": 1230,
+              "y": -575
             },
             "size": {
               "width": 112.5,
@@ -761,6 +1012,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -844,7 +1096,6 @@
               ]
             },
             "id": "e15a8e76-17cd-45f2-a1d1-c3121c1b4443",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Stripe",
@@ -859,8 +1110,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": -575
+              "x": 490,
+              "y": -660
             },
             "size": {
               "width": 370,
@@ -878,6 +1129,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -961,7 +1213,6 @@
               ]
             },
             "id": "20b1b2d7-3c0e-4d5c-9490-b91c4cef8451",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "e-doktor",
@@ -974,6 +1225,152 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Externí systémy\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Externí systémy\n"
+            ],
+            "id": "543eca4a-755b-4308-b8ed-c369b8a2facb",
+            "source": {
+              "x": 1090,
+              "y": -730
+            },
+            "target": {
+              "x": 1090,
+              "y": -60
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": 1230,
+              "y": -435
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "SOC"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": "4 3"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1fb080eb-3706-4d3b-95a4-415452791de9"
+                },
+                {
+                  "group": "right",
+                  "id": "6c71950f-8fc5-43bf-b1b8-1dd7f2f43ad6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b1223f13-8265-41c1-ab51-7d3e04b42338"
+                },
+                {
+                  "group": "left",
+                  "id": "95c28f59-18c6-434c-bddd-7b9bcf343315"
+                }
+              ]
+            },
+            "id": "27594234-6c70-46ee-89e1-49b500ecc2e8",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Actor",
+              "name": "SOC",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
