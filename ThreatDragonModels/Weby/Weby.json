@@ -793,7 +793,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Seznam volných termínů\nZobrazení e-Receptu\nVideo stream",
+              "name": "Požadavek na platbu",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -807,72 +807,29 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Seznam volných termínů\nZobrazení e-Receptu\nVideo stream"
+              "Požadavek na platbu"
             ],
-            "id": "f10596c5-b9e7-48ff-93fb-869bb66af514",
+            "id": "1690ca0a-acc7-4a72-83eb-c4e3baea95d3",
             "source": {
-              "cell": "20b1b2d7-3c0e-4d5c-9490-b91c4cef8451",
-              "port": "398d8545-0004-4749-8e6a-7eccbb0c0581"
+              "x": 790,
+              "y": -600
             },
             "target": {
-              "cell": "d24bf5d5-5092-4d42-8879-4c96eba28b05",
+              "cell": "e15a8e76-17cd-45f2-a1d1-c3121c1b4443",
               "port": "a9b7c824-e790-4008-8ce9-13f92f463986"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream"
-            ],
-            "id": "187e323f-c677-4779-8154-be9ab674b9d0",
-            "source": {
-              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
-              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
-            },
-            "target": {
-              "x": 540,
-              "y": -530
             },
             "vertices": [
               {
-                "x": 250,
-                "y": -510
+                "x": 900,
+                "y": -690
               },
               {
-                "x": 410,
-                "y": -510
+                "x": 1040,
+                "y": -750
+              },
+              {
+                "x": 1170,
+                "y": -750
               }
             ]
           },
@@ -896,7 +853,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Dokumenty pacienta\npřehled rezervací\nvideo stream",
+              "name": "Přihlašovací údaje\nZápisy diagnózy\nVystavení e-receptu\nVideo stream",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -910,29 +867,152 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Dokumenty pacienta\npřehled rezervací\nvideo stream"
+              "Přihlašovací údaje\nZápisy diagnózy\nVystavení e-receptu\nVideo stream"
             ],
-            "id": "c4155b68-dfba-4461-beb2-7a0622cc2e0c",
+            "id": "03878a51-973c-4ea7-82b2-6c9a55fa593f",
             "source": {
-              "x": 540,
+              "x": 200,
               "y": -550
             },
             "target": {
-              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
-              "port": "a9b7c824-e790-4008-8ce9-13f92f463986"
+              "x": 540,
+              "y": -530
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Jméno\nHash hesla\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Jméno\nHash hesla\n"
+            ],
+            "id": "8f8acdb6-5c9c-4ac8-9cad-143c8b3ec7fa",
+            "source": {
+              "x": 680,
+              "y": -400
+            },
+            "target": {
+              "cell": "33886050-6c3e-4b06-baca-9f43c5842735",
+              "port": "aeb625cd-7e6f-40a3-b6b4-366aa393bc78"
             },
             "vertices": [
               {
-                "x": 340,
-                "y": -580
-              },
-              {
-                "x": 280,
-                "y": -600
-              },
-              {
-                "x": 136,
-                "y": -620
+                "x": 500,
+                "y": -340
               }
             ]
           },
@@ -1441,6 +1521,190 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Transaction_id\nčástka\ndigitální podpis",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Transaction_id\nčástka\ndigitální podpis"
+            ],
+            "id": "6f3cd3ad-e775-4fe3-961b-fc99d481cf6e",
+            "source": {
+              "x": 1230,
+              "y": -670
+            },
+            "target": {
+              "x": 810,
+              "y": -540
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 17,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Bezpečnostní události",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Bezpečnostní události"
+            ],
+            "id": "d4433ad9-e784-46fd-bc82-525018443960",
+            "source": {
+              "x": 1230,
+              "y": -410
+            },
+            "target": {
+              "cell": "ab2d4e67-dbea-4057-bceb-f93bc829733f",
+              "port": "ed1321bd-a94b-4259-b833-cdb5e9f683f7"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zdravotní záznamy\nRezervace\nTransakce\nObsazenost kalendáře",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Zdravotní záznamy\nRezervace\nTransakce\nObsazenost kalendáře"
+            ],
+            "id": "069be6da-608d-4a70-8a00-d3289e4463fe",
+            "source": {
+              "x": 680,
+              "y": -400
+            },
+            "target": {
+              "cell": "7cd2f5a7-84cf-4dd5-bf6c-bbc56f3a380a",
+              "port": "aeb625cd-7e6f-40a3-b6b4-366aa393bc78"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logy",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Logy"
+            ],
+            "id": "dcf76300-42fd-41a2-859a-93b21516874b",
+            "source": {
+              "x": 770,
+              "y": -440
+            },
+            "target": {
+              "cell": "ab2d4e67-dbea-4057-bceb-f93bc829733f",
+              "port": "aeb625cd-7e6f-40a3-b6b4-366aa393bc78"
             }
           }
         ],
