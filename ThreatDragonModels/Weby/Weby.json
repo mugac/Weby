@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 60,
+              "x": 140,
               "y": -600
             },
             "size": {
@@ -136,7 +136,7 @@
           },
           {
             "position": {
-              "x": 60,
+              "x": 140,
               "y": -475
             },
             "size": {
@@ -253,7 +253,7 @@
           },
           {
             "position": {
-              "x": 60,
+              "x": 140,
               "y": -337
             },
             "size": {
@@ -370,608 +370,8 @@
           },
           {
             "position": {
-              "x": 423,
-              "y": -660
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Autentizace a správa relací"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
-                },
-                {
-                  "group": "right",
-                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
-                },
-                {
-                  "group": "bottom",
-                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
-                },
-                {
-                  "group": "left",
-                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
-                }
-              ]
-            },
-            "id": "05c4fa3d-b04c-4783-b7dc-ae2e7f8541f8",
-            "zIndex": 4,
-            "data": {
-              "type": "tm.Process",
-              "name": "Autentizace a správa relací",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 423,
-              "y": -540
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Správa rezervací"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
-                },
-                {
-                  "group": "right",
-                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
-                },
-                {
-                  "group": "bottom",
-                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
-                },
-                {
-                  "group": "left",
-                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
-                }
-              ]
-            },
-            "id": "249c4a9f-7e03-4965-bf81-caa053d06aeb",
-            "zIndex": 5,
-            "data": {
-              "type": "tm.Process",
-              "name": "Správa rezervací",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 423,
-              "y": -415
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Zpracování plateb"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
-                },
-                {
-                  "group": "right",
-                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
-                },
-                {
-                  "group": "bottom",
-                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
-                },
-                {
-                  "group": "left",
-                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
-                }
-              ]
-            },
-            "id": "b83e4cd2-56a8-4366-82f7-c1ba08041883",
-            "zIndex": 6,
-            "data": {
-              "type": "tm.Process",
-              "name": "Zpracování plateb",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 423,
-              "y": -277
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Správa zdravotní dokumentace"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
-                },
-                {
-                  "group": "right",
-                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
-                },
-                {
-                  "group": "bottom",
-                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
-                },
-                {
-                  "group": "left",
-                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
-                }
-              ]
-            },
-            "id": "ae0fc405-8623-46bb-86ab-29b946b43f5a",
-            "zIndex": 7,
-            "data": {
-              "type": "tm.Process",
-              "name": "Správa zdravotní dokumentace",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 423,
-              "y": -150
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Videomodul a signalizace"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
-                },
-                {
-                  "group": "right",
-                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
-                },
-                {
-                  "group": "bottom",
-                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
-                },
-                {
-                  "group": "left",
-                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
-                }
-              ]
-            },
-            "id": "94a6d23c-236a-4d65-a58c-4ca422ef048e",
-            "zIndex": 8,
-            "data": {
-              "type": "tm.Process",
-              "name": "Videomodul a signalizace",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 676,
-              "y": -600
+              "x": 370,
+              "y": -210
             },
             "size": {
               "width": 120,
@@ -1094,8 +494,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": -465
+              "x": 596,
+              "y": -210
             },
             "size": {
               "width": 120,
@@ -1218,8 +618,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": -337
+              "x": 796,
+              "y": -210
             },
             "size": {
               "width": 120,
@@ -1342,8 +742,8 @@
           },
           {
             "position": {
-              "x": 1044,
-              "y": -660
+              "x": 990,
+              "y": -475
             },
             "size": {
               "width": 112.5,
@@ -1458,56 +858,124 @@
             }
           },
           {
-            "shape": "flow",
+            "position": {
+              "x": 450,
+              "y": -560
+            },
+            "size": {
+              "width": 370,
+              "height": 260
+            },
             "attrs": {
-              "line": {
+              "text": {
+                "text": "Systém"
+              },
+              "body": {
                 "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
-            "width": 200,
-            "height": 100,
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "398d8545-0004-4749-8e6a-7eccbb0c0581"
+                },
+                {
+                  "group": "right",
+                  "id": "233c7085-3da6-4c69-b605-d70d6214e799"
+                },
+                {
+                  "group": "bottom",
+                  "id": "15da2cf7-a9ea-4320-a566-9842cbcc05bc"
+                },
+                {
+                  "group": "left",
+                  "id": "2c201a76-69f7-4d02-99a8-657ee08358c4"
+                }
+              ]
+            },
+            "id": "20b1b2d7-3c0e-4d5c-9490-b91c4cef8451",
             "zIndex": 13,
-            "connector": "smooth",
             "data": {
-              "type": "tm.Flow",
-              "name": "transaction_id, status, částka, digitální podpis",
-              "description": "Po úspěšné platbě kartou odešle externí brána callback s potvrzením na náš backend. Obsahuje ID transakce, stav a digitální podpis pro ověření autenticity, že požadavek neposlal útočník",
+              "type": "tm.Process",
+              "name": "Systém",
+              "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "transaction_id, status, částka, digitální podpis"
-            ],
-            "id": "5d184359-bd0c-4c58-9b02-8287dbd432f0",
-            "source": {
-              "x": 480,
-              "y": -380
-            },
-            "target": {
-              "cell": "e15a8e76-17cd-45f2-a1d1-c3121c1b4443",
-              "port": "3029e4e6-52e2-40fb-bbb1-ed30cf1e8119"
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": -630
-              }
-            ]
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ],
         "description": "tok dat"
