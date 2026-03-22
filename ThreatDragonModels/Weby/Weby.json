@@ -746,53 +746,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream"
-            ],
-            "id": "187e323f-c677-4779-8154-be9ab674b9d0",
-            "source": {
-              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
-              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
-            },
-            "target": {
-              "x": 550,
-              "y": -540
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Odeslání změn v účtech",
               "description": "",
               "outOfScope": false,
@@ -866,6 +819,122 @@
               "port": "a9b7c824-e790-4008-8ce9-13f92f463986"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Přihlašovací údaje\nZápis diagnózy\nVystavení e-Receptu\nVideo stream"
+            ],
+            "id": "187e323f-c677-4779-8154-be9ab674b9d0",
+            "source": {
+              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
+              "port": "b6161f9b-7413-4aef-abd7-544bdd05526a"
+            },
+            "target": {
+              "x": 540,
+              "y": -530
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": -510
+              },
+              {
+                "x": 410,
+                "y": -510
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Dokumenty pacienta\npřehled rezervací\nvideo stream",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Dokumenty pacienta\npřehled rezervací\nvideo stream"
+            ],
+            "id": "c4155b68-dfba-4461-beb2-7a0622cc2e0c",
+            "source": {
+              "x": 540,
+              "y": -550
+            },
+            "target": {
+              "cell": "c47aef1c-5084-433f-a370-ec9dc96a726f",
+              "port": "a9b7c824-e790-4008-8ce9-13f92f463986"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": -580
+              },
+              {
+                "x": 280,
+                "y": -600
+              },
+              {
+                "x": 136,
+                "y": -620
+              }
+            ]
           },
           {
             "position": {
@@ -994,7 +1063,7 @@
           {
             "position": {
               "x": 1230,
-              "y": -575
+              "y": -700
             },
             "size": {
               "width": 112.5,
